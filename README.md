@@ -1,5 +1,15 @@
 # Migrate Azure Resources between tenants
 
+**Who this guide is for:** Cloud architects, platform engineers, and migration leads assessing an Azure subscription move between Microsoft Entra tenants. Use the checklist and technical assessment to identify dependencies before planning a rehearsal.
+
+**In this guide**
+
+- [Checklist](#checklist)
+- [Technical assessment](#technical-assessment)
+- [Premigration steps](#premigration-steps)
+- [Post-migration steps](#post-migration-steps)
+- [Supported resources](#supported-resources)
+
 This article provides guidance on how to transfer Azure resources to a different tenant. The process can be executed using various tools, including the Azure portal, Azure PowerShell, Azure CLI, or the REST API.
 
 It's important to note that this operation is complex and should only be undertaken when necessary. Our primary recommendation is to rebuild your resources in the target tenant. However, there are scenarios where a rebuild might not be feasible or desirable, leaving the transfer of Azure resources as the only viable option. Additionally, not all Azure resources are eligible for transfer across tenants. In such cases, these resources need to be recreated.
